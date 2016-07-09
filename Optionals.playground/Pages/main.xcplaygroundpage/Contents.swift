@@ -102,6 +102,12 @@ var anotherPetName: String?
 // write your code here
 print("The value of anotherPetName is \(anotherPetName)")
 
+// ALTERNATIVE: obtained from solution
+//if anotherPetName != nil {
+//    print("The value of anotherPetName is \(anotherPetName)")
+//} else {
+//    print("The value of anotherPetName is nil")
+//}
 
 
 
@@ -118,12 +124,14 @@ else if let anotherPetName = anotherPetName {
     print(anotherPetName)
 }
 
-// ALTERNATIVE: obtained from solution
-//if anotherPetName != nil {
-//    print("The value of anotherPetName is \(anotherPetName)")
+
+//ALTERNATIVE: obtained from solution
+//if let name = anotherPetName {
+//    print(name)
 //} else {
-//    print("The value of anotherPetName is nil")
+//    print("anotherPetName is has no value")
 //}
+
 
 
 
