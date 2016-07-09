@@ -14,7 +14,7 @@
  */
 var pet = "turtle 🐢"
 
-
+// the pet variable is of type String
 
 
 
@@ -24,7 +24,7 @@ var pet = "turtle 🐢"
  */
 var petName: String?
 
-
+//the variable petName is a String optional
 
 
 
@@ -33,7 +33,7 @@ var petName: String?
  ### 3. Currently, what is the _value_ of `petName`?
  */
 
-
+// currently, the value of petName is nil
 
 
 
@@ -44,8 +44,8 @@ var petName: String?
  */
 // write your code here
 
-
-
+petName = "Mochi"
+//the variable petName is still a String optional
 
 
 
@@ -55,7 +55,8 @@ var petName: String?
  */
 // write your code here
 
-
+print(petName)
+//"Optional("Mochi")\n"
 
 
 
