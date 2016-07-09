@@ -14,7 +14,7 @@
  */
 var pet = "turtle 🐢"
 
-// the pet variable is of type String
+// pet is a variable of type String
 
 
 
@@ -24,7 +24,7 @@ var pet = "turtle 🐢"
  */
 var petName: String?
 
-//the variable petName is a String optional
+//the variable petName is an optional String
 
 
 
@@ -45,7 +45,7 @@ var petName: String?
 // write your code here
 
 petName = "Mochi"
-//the variable petName is still a String optional
+//the variable petName is still a String optional (retains type even though its been assigned)
 
 
 
@@ -118,6 +118,12 @@ else if let anotherPetName = anotherPetName {
     print(anotherPetName)
 }
 
+// ALTERNATIVE: obtained from solution
+//if anotherPetName != nil {
+//    print("The value of anotherPetName is \(anotherPetName)")
+//} else {
+//    print("The value of anotherPetName is nil")
+//}
 
 
 
